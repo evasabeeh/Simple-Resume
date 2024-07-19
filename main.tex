@@ -1,0 +1,202 @@
+%--Preamble--
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+%--Body--
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \vspace{5pt}
+  \textbf{{\huge Eva Sabeeh}}\\
+  \vspace{5pt}
+  \href{#}{Address:  ~~~Lucknow, Uttar Pradesh} & Email: \href{mailto:}{\emph{evasabeeh@gmail.com}}\\
+  \href{#}{~} & Mobile:~~~~~+91-956-9695-042 \\
+\end{tabular*}
+
+\vspace{2pt}
+
+
+
+
+%-----------Education-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Chandigarh University}{Mohali, India}
+      {Bachelor of Engineering - Computer Science;  CGPA: \textbf{7.50}}{Sept 2021 - Jun 2025}
+      \resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Spring Dale College}{Lucknow, India}
+      {Intermediate (ISC);  Percentage: \textbf{88.6}}{Mar 2020 - Feb 2021}
+    \resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Spring Dale College}{Lucknow, India}
+      {Matriculation (ICSE);  Percentage: \textbf{91.4}}{Mar 2018 - Feb 2019}
+    \resumeSubHeadingListEnd
+    \vspace{2pt}
+
+
+%--Skills--
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~~~~~~~~~C++, JAVA, SQL, HTML5, CSS, JavaScript (Basic)}
+	\resumeSubItem{Frameworks}{~~~~~~~~~~~Android Jetpack Compose, Bootstrap}
+	\resumeSubItem{Tools \& Libraries}{~~~Git, C++ STL}
+  \resumeSubItem{Platforms}{~~~~~~~~~~~~~~~Visual Studio Code, Android Studio, GitHub, Figma}
+  \resumeSubItem{Courseworks}{~~~~~~~~~~Data Structures, Object Oriented Programming, Database Management System, Operating System}
+	\resumeSubItem{Soft Skills}{~~~~~~~~~~~~~~Active Learning, Emotional Intelligence, Task Management, Workability}
+\resumeSubHeadingListEnd
+\vspace{2pt}
+
+
+
+%----------Projects-----------------
+\section{Academic Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Optimized Flight Route Planner (C, C++, Data Structure)}\\
+\vspace{5pt}
+{Implemented Dijkstra's Algorithm to determine the optimal flight route between the origin and destination. It mainly uses Graph which takes the source and destination as input and returns an HTML file displaying the calculated route based on two options, the cheapest or fastest.}
+\vspace{5pt}
+\resumeSubItem{Melofy - Spotify inspired app (Kotlin, Jetpack Compose, Material UI, Retrofit)}\\
+\vspace{5pt}
+{Developed an Android playback application entirely in Kotlin using Jetpack Compose for designing the UI and ExoPlayer for media playing.}
+\vspace{5pt}
+\resumeSubItem{Bookmania - Digitized bookstore (HTML, CSS, JavaScipt)}\\
+\vspace{5pt}
+{Engineered a responsive and user-friendly web-based frontend aimed at enhancing browsing and purchasing experience for users ensuring seamless navigation.}
+\vspace{5pt}
+\resumeSubHeadingListEnd
+\vspace{2pt}
+
+
+%-----------Certifications-----------------
+\section{Certifications}
+\begin{description}[font=$\bullet$]
+\item {NPTEL certified in \textbf{Introduction to Programming through C++}}
+\vspace{-5pt}
+\item {Coursera certified in \textbf{Front-End Web UI Frameworks and Tools: Bootstrap 4}}
+\vspace{-5pt}
+\item {Coursera certified in \textbf{Create the User Interface in Android Studio}}
+\vspace{-5pt}
+\item {Hackerrank certified in \textbf{Problem Solving} skills}
+\vspace{-5pt}
+\end{description}
+\vspace{2pt}
+
+%--Other Achievements--
+\section{Activities \& Achievements}
+\begin{description}[font=$\bullet$]
+  \item {LeetCode \textbf{700+ problems} solved}
+  \vspace{-5pt}
+  \item {Member of Student Council (2017 - 2018)}
+  \vspace{-5pt}
+  \end{description}
+\vspace{2pt}
+
+
+
+%--Links --
+\section{Links}
+\resumeSubHeadingListStart
+\resumeSubItem{LinkedIn}{\href{https://www.linkedin.com/in/eva-sabeeh/}{~~~~~~~~\emph{linkedin.com/eva-sabeeh}}}
+\vspace{-1pt}
+\resumeSubItem{GitHub}{\href{https://www.github.com/evasabeeh/}{~~~~~~~~~~\emph{github.com/evasabeeh}}}
+\vspace{-1pt}
+\resumeSubItem{LeetCode}{\href{https://www.leetcode.com/u/evasabeeh/}{~~~~~~~\emph{leetcode.com/u/evasabeeh}}}
+\vspace{-1pt}
+\resumeSubItem{HackerRank}{\href{https://www.hackerrank.com/profile/evasabeeh}{~~~\emph{hackerrank.com/evasabeeh}}}
+\vspace{-1pt}
+\resumeSubItem{Portfolio}{\href{https://evasabeeh.github.io/}{~~~~~~~~\emph{evasabeeh.github.io}}}
+\vspace{-1pt}
+\resumeSubHeadingListEnd
+\vspace{2pt}
+
+
+
+%--Others--
+\section{Other}
+\resumeSubHeadingListStart
+\resumeSubItem{Languages known}{~~~~~~~English, Hindi}
+\vspace{-1pt}
+\resumeSubItem{Hobbies \& Interests}{~~~Music, Origami, Gardening}
+\resumeSubHeadingListEnd
+\vspace{2pt}
+
+
+
+\end{document}
