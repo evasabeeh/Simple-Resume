@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1721397881.08946 "c:/Users/evas1/OneDrive/Desktop/Computer/Resume/Simple-Resume/main.tex" "main.pdf" "main" 1721397881.78894 0
+["pdflatex"] 1722102237.3431 "c:/Users/evas1/OneDrive/Desktop/Computer/Resume/Simple-Resume/main.tex" "main.pdf" "main" 1722102238.53717 0
   "C:/Users/evas1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1720457962 80937 91001db6d4ae332437b4b739862cda02 ""
   "C:/Users/evas1/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1720066579 10472 9ef23aabfbb0c08f65a50b14512c2ce8 ""
   "C:/Users/evas1/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1720066581 11548 5c1219585accfd520e13e235aef79f1e ""
@@ -73,10 +73,10 @@
   "C:/Users/evas1/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1699094857 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "C:/Users/evas1/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1718356376 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "C:/Users/evas1/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/evas1/OneDrive/Desktop/Computer/Resume/Simple-Resume/main.tex" 1721397880 6105 33956f89529d650771dd796e9ddc4e7f ""
-  "main.aux" 1721397881 931 5a8f49ad565cb583e27a6302061669de "pdflatex"
-  "main.out" 1721397881 761 e298d39b1fc35ca27fb62f2f1ef9a52b "pdflatex"
-  "main.tex" 1721397880 6105 33956f89529d650771dd796e9ddc4e7f ""
+  "c:/Users/evas1/OneDrive/Desktop/Computer/Resume/Simple-Resume/main.tex" 1722102236 6299 01ff0ae4ab20d42b9336049e713bfc11 ""
+  "main.aux" 1722102238 931 5a8f49ad565cb583e27a6302061669de "pdflatex"
+  "main.out" 1722102238 761 e298d39b1fc35ca27fb62f2f1ef9a52b "pdflatex"
+  "main.tex" 1722102236 6299 01ff0ae4ab20d42b9336049e713bfc11 ""
   (generated)
   "main.aux"
   "main.log"
