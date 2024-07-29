@@ -22,7 +22,7 @@
 \addtolength{\oddsidemargin}{-0.530in}
 \addtolength{\evensidemargin}{-0.375in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.45in}
+\addtolength{\topmargin}{-.50in}
 \addtolength{\textheight}{1in}
 
 \urlstyle{rm}
@@ -43,28 +43,36 @@
     \textbf{#1}{: #2 \vspace{-2pt}}
   }
 }
-
-\newcommand{\resumeItemWithoutTitle}[1]{
+\newcommand{\resumeSimpleItem}[2]{
   \item\small{
-    {\vspace{-2pt}}
+    {#1}{#2 \vspace{-2pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSkillSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
     \end{tabular*}\vspace{-5pt}
 }
 
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+\newcommand{\resumeSimpleSubItem}[2]{\resumeSimpleItem{#1}{#2}\vspace{-3pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeSubHeadingSimpleListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingSimpleListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
@@ -80,11 +88,11 @@
   \vspace{5pt}
   \textbf{{\huge Eva Sabeeh}}\\
   \vspace{5pt}
-  \href{#}{Address:  ~~~Lucknow, Uttar Pradesh} & Email: \href{mailto:}{\emph{evasabeeh@gmail.com}}\\
-  \href{#}{~} & Mobile:~~~~~+91-956-9695-042 \\
+  {Address:  ~~~Lucknow, Uttar Pradesh} & Email: \href{mailto:evasabeeh@gmail.com}{\emph{evasabeeh@gmail.com}}\\
+  {Mobile:~~~~~+91-956-9695-042} \\
 \end{tabular*}
 
-\vspace{2pt}
+\vspace{9pt}
 
 
 
@@ -96,13 +104,13 @@
       {Chandigarh University}{Mohali, India}
       {Bachelor of Engineering - Computer Science;  CGPA: \textbf{7.50}}{Sept 2021 - Jun 2025}
       \resumeSubHeadingListEnd
-
+\vspace{-3pt}
     \resumeSubHeadingListStart
     \resumeSubheading
       {Spring Dale College}{Lucknow, India}
       {Intermediate (ISC);  Percentage: \textbf{88.6}}{Mar 2020 - Feb 2021}
     \resumeSubHeadingListEnd
-
+\vspace{-3pt}
     \resumeSubHeadingListStart
     \resumeSubheading
       {Spring Dale College}{Lucknow, India}
@@ -113,15 +121,22 @@
 
 %--Skills--
 \section{Skills Summary}
-	\resumeSubHeadingListStart
-	\resumeSubItem{Languages}{~~~~~~~~~~~~~~C++, Core Java, SQL, HTML5, CSS, JavaScript (Basic)}
-	\resumeSubItem{Frameworks}{~~~~~~~~~~~Android Jetpack Compose, Bootstrap}
-	\resumeSubItem{Tools \& Libraries}{~~~Git, C++ STL}
-  \resumeSubItem{Platforms}{~~~~~~~~~~~~~~~Visual Studio Code, Android Studio, GitHub, Figma}
-  \resumeSubItem{Familiar}{~~~~~~~~~~~~~~~~~Python, C}
-  \resumeSubItem{Courseworks}{~~~~~~~~~~Data Structures, Object Oriented Programming, Database Management System, Operating System}
-	\resumeSubItem{Soft Skills}{~~~~~~~~~~~~~~Active Learning, Emotional Intelligence, Task Management, Workability}
-\resumeSubHeadingListEnd
+\begin{description}[font=$\bullet$]
+  \item \textbf{Languages:}{~~~~~~~~~~~~~~~C++, Core Java, SQL, HTML5, CSS, JavaScript (Basic)}
+  \vspace{-5pt}
+  \item \textbf{Frameworks:}{~~~~~~~~~~~~Android Jetpack Compose, Bootstrap}
+  \vspace{-5pt}
+  \item \textbf{Tools \& Libraries:}{~~~~Git, C++ STL, Android Jetpack Compose, Bootstrap}
+  \vspace{-5pt}
+  \item \textbf{Platforms:}{~~~~~~~~~~~~~~~Visual Studio Code, Android Studio, GitHub, Figma}
+  \vspace{-5pt}
+  \item \textbf{Familiar:}{~~~~~~~~~~~~~~~~~~C, Python}
+  \vspace{-5pt}
+  \item \textbf{Courseworks:}{~~~~~~~~~~~Object Oriented Programming, Database Management System, Operating System,}\\ \vspace{2pt}{~~~~~~~~~~~~~~~~~~~~~~~~~~~Data Structures \& Algorithms}
+  \vspace{-5pt}
+  \item \textbf{Soft Skills:}{~~~~~~~~~~~~~~~Active Learning, Emotional Intelligence, Task Management, Workability}
+  \vspace{-5pt}
+\end{description}
 \vspace{2pt}
 
 
@@ -129,34 +144,47 @@
 %----------Projects-----------------
 \section{Academic Projects}
 \resumeSubHeadingListStart
-\resumeSubItem{Optimized Flight Route Planner (C, C++, Data Structure)}\\
-\vspace{5pt}
-{Implemented Dijkstra's Algorithm to determine the optimal flight route between the origin and destination. It mainly uses Graph which takes the source and destination as input and returns an HTML file displaying the calculated route based on two options, the cheapest or fastest.}
-\vspace{5pt}
-\resumeSubItem{Melofy - Spotify inspired app (Kotlin, Jetpack Compose, Material UI)}\\
-\vspace{5pt}
-{Developed an Android playback application entirely in Kotlin, leveraging Jetpack Compose for sophisticated UI design and ExoPlayer for seamless media playing. The project is focused on UI development which utilized modern Google Material Design to ensure intutive user experience.}
-\vspace{5pt}
-\resumeSubItem{Bookmania - Digitized bookstore (HTML, CSS, JavaScipt)}\\
-\vspace{5pt}
-{Engineered a responsive and user-friendly web-based frontend aimed at enhancing browsing and purchasing experience for users ensuring seamless navigation.}
-\vspace{5pt}
-\resumeSubHeadingListEnd
+\resumeSkillSubheading{Optimized Travel Route Planner}{C, C++, Data Structure}
+\vspace {-2pt}
+\resumeSubHeadingSimpleListStart
+\resumeSimpleSubItem{Implemented Dijkstra's Algorithm to determine the optimal flight route between the origin and destination.}{}
 \vspace{2pt}
+\resumeSimpleSubItem{Mainly uses Graph which takes the source and destination as an input parameters.}{}
+\vspace{2pt}
+\resumeSimpleSubItem{Returns an .html file displaying the calculated route based on two options, the cheapest or fastest.}{}
+\resumeSubHeadingSimpleListEnd
+\vspace{2pt}
+
+\resumeSkillSubheading{Melofy - Spotify inspired app} {Kotlin, Jetpack Compose, Material UI}
+\vspace{-2pt}
+\resumeSubHeadingSimpleListStart
+\resumeSimpleSubItem{Developed an Android playback application entirely in Kotlin.}{}
+\vspace{2pt}
+\resumeSimpleSubItem{Leveraging Jetpack Compose for sophisticated UI design and ExoPlayer for seamless media playing.}{}
+\vspace{2pt}
+\resumeSimpleSubItem{Focused on UI development which utilizes modern Google Material Design to ensure an intuitive user experience.}{}
+\resumeSubHeadingSimpleListEnd
+\vspace{2pt}
+
+\resumeSkillSubheading{Bookmania - Digitized bookstore}{HTML, CSS, JavaScript}
+\vspace{-2pt}
+\resumeSubHeadingSimpleListStart
+\resumeSimpleSubItem {Engineered a responsive and user-friendly web-based frontend.}{}
+\vspace{2pt}
+\resumeSimpleSubItem{Aimed at enhancing browsing and purchasing experience for users ensuring seamless navigation.}{}
+\resumeSubHeadingSimpleListEnd
+\resumeSubHeadingListEnd
+\vspace{3pt}
 
 
 %-----------Certifications-----------------
 \section{Certifications}
-\begin{description}[font=$\bullet$]
-\item {NPTEL certified in \textbf{Introduction to Programming through C++}}
-\vspace{-5pt}
-\item {Coursera certified in \textbf{Front-End Web UI Frameworks and Tools: Bootstrap 4}}
-\vspace{-5pt}
-\item {Coursera certified in \textbf{Create the User Interface in Android Studio}}
-\vspace{-5pt}
-\item {Hackerrank certified in \textbf{Problem Solving} skills}
-\vspace{-5pt}
-\end{description}
+\resumeSubHeadingSimpleListStart
+\resumeSimpleSubItem {NPTEL certified in \textbf{Introduction to Programming through C++}}{}
+\resumeSimpleSubItem {Coursera certified in \textbf{Core Java} Specialization}{}
+\resumeSimpleSubItem {Coursera certified in \textbf{Create the User Interface in Android Studio}}{}
+\resumeSimpleSubItem {Coursera certified in \textbf{Front-End Web UI Frameworks and Tools: Bootstrap 4}}{}
+\resumeSubHeadingSimpleListEnd
 \vspace{2pt}
 
 %--Other Achievements--
@@ -173,29 +201,29 @@
 
 %--Links --
 \section{Links}
-\resumeSubHeadingListStart
-\resumeSubItem{LinkedIn}{\href{https://www.linkedin.com/in/eva-sabeeh/}{~~~~~~~~\emph{linkedin.com/eva-sabeeh}}}
+\resumeSubHeadingSimpleListStart
+\resumeSimpleSubItem{\textbf{LinkedIn:}}{\href{https://www.linkedin.com/in/eva-sabeeh/}{~~~~~~~~\emph{linkedin.com/eva-sabeeh}}}
 \vspace{-1pt}
-\resumeSubItem{GitHub}{\href{https://www.github.com/evasabeeh/}{~~~~~~~~~~\emph{github.com/evasabeeh}}}
+\resumeSimpleSubItem{\textbf{GitHub:}}{\href{https://www.github.com/evasabeeh/}{~~~~~~~~~~\emph{github.com/evasabeeh}}}
 \vspace{-1pt}
-\resumeSubItem{LeetCode}{\href{https://www.leetcode.com/u/evasabeeh/}{~~~~~~~\emph{leetcode.com/u/evasabeeh}}}
+\resumeSimpleSubItem{\textbf{LeetCode:}}{\href{https://www.leetcode.com/u/evasabeeh/}{~~~~~~~\emph{leetcode.com/u/evasabeeh}}}
 \vspace{-1pt}
-\resumeSubItem{HackerRank}{\href{https://www.hackerrank.com/profile/evasabeeh}{~~~\emph{hackerrank.com/evasabeeh}}}
+\resumeSimpleSubItem{\textbf{HackerRank:}}{\href{https://www.hackerrank.com/profile/evasabeeh}{~~~\emph{hackerrank.com/evasabeeh}}}
 \vspace{-1pt}
-\resumeSubItem{Portfolio}{\href{https://evasabeeh.github.io/}{~~~~~~~~\emph{evasabeeh.github.io}}}
+\resumeSimpleSubItem{\textbf{Portfolio:}}{\href{https://evasabeeh.github.io/}{~~~~~~~~\emph{evasabeeh.github.io}}}
 \vspace{-1pt}
-\resumeSubHeadingListEnd
+\resumeSubHeadingSimpleListEnd
 \vspace{2pt}
 
 
 
 %--Others--
 \section{Other}
-\resumeSubHeadingListStart
-\resumeSubItem{Languages known}{~~~~~~~English, Hindi}
+\resumeSubHeadingSimpleListStart
+\resumeSimpleSubItem {\textbf{Languages known:}}{~~~~~~~English, Hindi}
 \vspace{-1pt}
-\resumeSubItem{Hobbies \& Interests}{~~~Music, Origami, Gardening}
-\resumeSubHeadingListEnd
+\resumeSimpleSubItem{\textbf{Hobbies \& Interests:}}{~~~Music, Origami, Gardening}
+\resumeSubHeadingSimpleListEnd
 \vspace{2pt}
 
 
